@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Harshith Gupta | Portfolio Card</title>
+  <meta name="description" content="Harshith Gupta - Founder & CEO of Cosmiron.Ai. Driving innovation in AI and sustainable tech solutions. Let's connect!" />
+  <meta name="keywords" content="Harshith Gupta, Cosmiron.AI, Assurth, AI, Sustainability, Tech, Entrepreneur" />
+  <meta name="author" content="Harshith Gupta" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" />
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+/>
+
+
+
+</head>
+<body class="bg-gray-100 ">
+
+    <main class="max-w-xl p-4 mx-auto">
+        
+        <div class="relative">
+          
+          <div class="w-full overflow-hidden shadow h-34 md:h-32 lg:h-40">
+            <img src="Banner.jpeg" alt="Banner" class="object-cover w-full h-full" />
+          </div>
+          
+      
+          
+          <div class="absolute z-10 transform -translate-x-1/2 -bottom-16 left-1/2">
+            <div class="w-32 h-32 overflow-hidden bg-white border-2 border-white rounded-full shadow-lg">
+              <img src="Profile.jpeg" alt="Profile" class="object-cover w-full h-full" />
+            </div>
+          </div>
+        </div>
+      
+        
+        <div class="flex flex-col items-center mt-20">
+          <div class="px-6 text-center">
+            <h1 class="text-xl font-bold text-gray-800">Harshith Gupta</h1>
+            <p class="mt-1 text-sm text-gray-600">
+              Building Assurth | Founder & CEO of Cosmiron.Ai
+            </p>
+            <p class="mt-1 text-sm text-gray-500">Assurth || Cosmiron.Ai</p>
+      
+            <p class="max-w-xl mt-6 text-sm leading-relaxed text-gray-600">
+              I'm a 23-year-old entrepreneur passionate about innovation, AI, and sustainability. 
+              As the CEO of Cosmiron.AI, I help businesses scale with intelligent software solutions. 
+              I'm also a partner at Assurth, driving impactful eco-friendly initiatives. 
+              I believe in blending technology and sustainability to create meaningful change. Let’s connect!
+            </p>
+      
+            
+            <div class="flex flex-row justify-around w-full max-w-xl mx-auto mt-8 sm:">
+              <button
+                id="saveContactBtn"
+                class="px-3 py-2 font-medium text-gray-900 transition-all duration-150 bg-gray-200 border-2 border-gray-900 active:scale-95 rounded-xl"
+              >
+                Save Contact
+              </button>
+            
+              <button
+                id="openModal"
+                class="px-3 py-2 font-medium text-gray-900 transition-all duration-150 bg-gray-200 border-2 border-gray-900 active:scale-95 rounded-xl"
+              >
+                Share Your Details
+              </button>
+            
+              <!-- <button
+                id="getAppBtn"
+                class="px-3 py-2 font-medium text-gray-900 transition-all duration-150 bg-gray-200 border-2 border-gray-900 active:scale-95 rounded-xl"
+              >
+                Get App
+              </button> -->
+            </div>
+            
+          </div>
+        </div>
+      </main>
+
+
+
+        
+        <div id="modal" class="fixed inset-0 z-50 flex items-center justify-center hidden bg-black bg-opacity-40">
+            <div class="w-full max-w-md p-4 bg-white border-2 border-green-700 rounded-lg shadow-lg">
+              
+              
+              <div class="flex items-center justify-between mb-4 text-sm">
+                <h2 class="text-xl font-semibold">Share Your Details with <span class="text-gray-900">Harshith Gupta</span></h2>
+                <button id="closeModal" class="text-xl font-bold text-gray-500 hover:text-gray-700">&times;</button>
+              </div>
+              <hr class="w-full border-gray-300 mb-7"></hr>
+        
+             
+              <form 
+              id="contactForm" 
+              class="space-y-4 text-sm" 
+              action="https://getform.io/f/bqokpopb" 
+              method="POST"
+            >
+              
+              <input type="hidden" name="_gotcha" style="display:none !important">
+            
+             
+              <div class="flex items-center gap-2 p-2 border border-gray-400 rounded-md">
+                <i class="text-sm fas fa-user" style="color: #99ff33;"></i>
+                <input type="text" name="name" placeholder="Enter your name" class="w-full text-xs outline-none" required />
+              </div>
+            
+              
+              <div class="flex gap-4">
+                
+                <div class="flex items-center w-1/2 gap-2 p-2 border border-gray-400 rounded-md">
+                  <i class="text-sm fas fa-globe" style="color: #99ff33;"></i>
+                  <select name="country" class="w-full bg-transparent outline-none" required>
+                    <option value="">Select Country</option>
+                    <option value="India">India</option>
+                    <option value="USA">USA</option>
+                    <option value="UK">UK</option>
+                    <option value="Canada">Canada</option>
+                    <option value="Australia">Australia</option>
+                    <option value="Germany">Germany</option>
+                    <option value="France">France</option>
+                    <option value="Singapore">Singapore</option>
+                    <option value="UAE">UAE</option>
+                    <option value="Japan">Japan</option>
+                  </select>
+                </div>
+            
+                
+                <div class="flex items-center w-1/2 gap-2 p-2 border border-gray-400 rounded-md">
+                  <input type="text" name="mobile" placeholder="Enter your Mobile Number" class="w-full text-xs outline-none" required />
+                </div>
+              </div>
+            
+              
+              <div class="flex items-center gap-2 p-2 border border-gray-400 rounded-md">
+                <i class="text-sm fas fa-envelope" style="color: #7fff00;"></i>
+                <input type="email" name="email" placeholder="Enter your Email" class="w-full text-xs outline-none" required />
+              </div>
+            
+              
+              <div class="flex items-center gap-2 p-2 border border-gray-400 rounded-md">
+                <i class="text-sm fas fa-briefcase" style="color: #7fff00;"></i>
+                <input type="text" name="designation" placeholder="Enter your Designation" class="w-full text-xs outline-none" required />
+              </div>
+            
+              
+              <div class="flex items-center gap-2 p-2 border border-gray-400 rounded-md">
+                <i class="text-sm fas fa-building" style="color: #7fff00;"></i>
+                <input type="text" name="company" placeholder="Company / Business / Organisation" class="w-full text-xs outline-none" required />
+              </div>
+            
+              
+              <div class="mt-4 text-center">
+                <button type="submit" class="px-8 py-1 font-medium text-gray-500 transition bg-green-200 rounded-md hover:bg-green-300 hover:text-gray-500">
+                  Submit
+                </button>
+              </div>
+            </form>
+            </div>
+        </div>
+        
+
+        <div class="max-w-xl p-6 mx-auto ">
+            <h2 class="mb-8 text-xl font-semibold text-center text-gray-800">Links</h2>
+          
+            
+            <a href="tel:+919949092996" class="flex items-center justify-between p-1 mb-4 bg-gray-200 rounded-xl ">
+              <div class="flex items-center">
+                <img src="icons8-phone.svg" alt="Phone" class="w-10 h-10 mr-4" />
+                <div class="text-center">
+                <span class="text-gray-800 text-md ">Phone Number</span>
+            </div>
+              </div>
+              <i class="text-sm text-gray-800 fas fa-arrow-right"></i>
+            </a>
+          
+            
+            <a href="https://www.linkedin.com/in/harshith-guptaaa205?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" class="flex items-center justify-between p-1 mb-4 bg-gray-200 rounded-xl ">
+              <div class="flex items-center">
+                <img src="icons8-linkedin.svg" alt="LinkedIn" class="w-10 h-10 mr-4" />
+                <span class="text-gray-800 text-md ">LinkedIn</span>
+              </div>
+              <i class="text-sm text-gray-800 fas fa-arrow-right"></i>
+            </a>
+          
+            
+            <a href="https://x.com/harshith_gg" target="_blank" class="flex items-center justify-between p-1 mb-4 bg-gray-200 rounded-xl ">
+              <div class="flex items-center">
+                <img src="icons8-twitter.svg" alt="Twitter" class="w-10 h-10 mr-4" />
+                <span class="text-gray-800 text-md ">X</span>
+              </div>
+              <i class="text-sm text-gray-800 fas fa-arrow-right"></i>
+            </a>
+          
+            
+            <a href="https://www.instagram.com/harshith_gg?igsh=MWZ5OWY4YzBmcHF3aA==" target="_blank" class="flex items-center justify-between p-1 mb-4 bg-gray-200 rounded-xl ">
+              <div class="flex items-center">
+                <img src="icons8-instagram.svg" alt="Instagram" class="w-10 h-10 mr-4" />
+                <span class="text-gray-800 text-md">Instagram</span>
+              </div>
+              <i class="text-sm text-gray-800 fas fa-arrow-right"></i>
+            </a>
+
+            <a href="https://wa.me/+919949092996" target="_blank" class="flex items-center justify-between p-1 mb-4 bg-gray-200 rounded-xl ">
+                <div class="flex items-center">
+                  <img src="icons8-whatsapp.svg" alt="WhatsApp" class="w-10 h-10 mr-4" />
+                  <span class="text-gray-800 text-md ">WhatsApp</span>
+                </div>
+                <i class="text-sm text-gray-800 fas fa-arrow-right"></i>
+              </a>
+              
+          </div>
+          
+
+  
+  <script>
+    const modal = document.getElementById("modal");
+    const openBtn = document.getElementById("openModal");
+    const closeBtn = document.getElementById("closeModal");
+    
+  
+    openBtn.addEventListener("click", () => {
+      modal.classList.remove("hidden");
+    });
+  
+    closeBtn.addEventListener("click", () => {
+      modal.classList.add("hidden");
+    });
+  
+    form.addEventListener("submit", function (e) {
+      e.preventDefault();
+      alert("Details submitted successfully!");
+      modal.classList.add("hidden");
+      form.reset();
+    });
+  </script>
+
+  
+  <script>
+    
+    // document.getElementById("getAppBtn").addEventListener("click", () => {
+    //   window.open("https://wavpe.com/home", "_blank");
+    // });
+  
+    
+    document.getElementById("saveContactBtn").addEventListener("click", () => {
+      const vcfData = `
+  BEGIN:VCARD
+  VERSION:3.0
+  N:Wavpe;;
+  FN:Wavpe
+  TEL;TYPE=CELL:+911234567890
+  EMAIL:contact@wavpe.com
+  ORG:Wavpe
+  URL:https://wavpe.com
+  END:VCARD
+      `.trim();
+  
+      const blob = new Blob([vcfData], { type: "text/vcard" });
+      const url = URL.createObjectURL(blob);
+  
+      const a = document.createElement("a");
+      a.href = url;
+      a.download = "wavpe-contact.vcf";
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      URL.revokeObjectURL(url);
+    });
+  </script>
+
+
+<script>
+  const form = document.getElementById('contactForm');
+
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+
+    
+    const submitBtn = form.querySelector('button[type="submit"]');
+    submitBtn.disabled = true;
+    submitBtn.innerText = 'Sending...';
+
+    const formData = new FormData(form);
+
+    try {
+      const response = await fetch(form.action, {
+        method: form.method,
+        body: formData,
+        headers: {
+          Accept: 'application/json',
+        },
+      });
+
+      if (response.ok) {
+        alert('Form submitted successfully!');
+        form.reset(); 
+      } else {
+        alert('Oops! Something went wrong. Please try again later.');
+      }
+    } catch (error) {
+      console.error(error);
+      alert('Error submitting form!');
+    }
+
+    
+    submitBtn.disabled = false;
+    submitBtn.innerText = 'Submit';
+  });
+</script>
+
+</body>
+</html>
